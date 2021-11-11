@@ -1,0 +1,18 @@
+---
+import Foo from './foo.tsx'
+---
+<html lang="en">
+  <head>
+    
+    <link
+      rel="stylesheet"
+      href={Astro.resolve('../styles/global.css')}
+    >
+    
+  </head>
+  <body class="bg-appgray-dark text-white items-center flex flex-col">
+    <main class="h-full flex flex-col items-center px-6 lg:px-12 xl:px-24 pt-6 max-w-screen-2xl">
+      <Foo />
+    </main>
+  </body>
+</html>

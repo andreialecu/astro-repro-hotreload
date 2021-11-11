@@ -1,0 +1,11 @@
+{
+  "moduleResolution": "node",
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+    // currently disabled because
+    // enabling it seems to cause vscode to glitch on `.astro` files
+    //"strict": true
+  }
+}
